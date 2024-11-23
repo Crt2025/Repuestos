@@ -1,0 +1,98 @@
+/* Estilo general de la página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.post-container {
+    width: 90%;
+    max-width: 500px;
+    background-color: #000;
+    color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+}
+
+/* Estilo del encabezado */
+.header {
+    background-color: #D3D3D3;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 50px;
+    height: auto;
+}
+
+.website-link {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.website-link:hover {
+    text-decoration: underline;
+}
+
+/* Estilo de la sección principal */
+.main-image-link {
+    text-decoration: none; /* Eliminar el subrayado */
+    color: inherit;
+}
+
+.main-image {
+    padding: 20px;
+}
+
+.main-image h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+/* Logos de las marcas */
+.brands {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+.brands img {
+    width: 70px;
+    height: auto;
+    filter: brightness(0) invert(1);
+}
+
+/* Estilo del botón de WhatsApp */
+.whatsapp-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #25D366;
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin: 20px auto;
+    width: fit-content;
+    font-weight: bold;
+    gap: 10px;
+}
+
+.whatsapp-button:hover {
+    background-color: #1ebe5d;
+}
+
+.whatsapp-icon {
+    width: 20px;
+    height: auto;
+}
